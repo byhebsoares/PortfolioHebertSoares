@@ -3,32 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Homepage</title>
-    <link rel="stylesheet" href="css/stilo.css">
+    <title>Hebert Soares</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
+<body class="bg-dark text-white">
+    <header class="text-center py-5">
         <h1>Hebert Soares</h1>
-        <p>Web Developer &amp; Designer</p>
+        <p>Web Developer &amp; Student</p>
     </header>
-    <div class="container">
-        <img src="profile.jpg" alt="Profile Picture" class="profile-img">
-        <div class="intro">
-            <p></p>
+    <div class="container py-5">
+        <div class="text-center">
+            <img src="img/lindo.jpeg" alt="Profile Picture" class="rounded-circle img-fluid" style="width: 150px;">
+            <p class="mt-3">Bem-vindo à minha página pessoal! Sou um desenvolvedor web e designer apaixonado, com foco na criação de sites elegantes e funcionais. Atualmente estou focado em JAVA e Python como Back-end</p>
         </div>
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
+        <div class="text-center mt-4">
+            <a href="https://twitter.com/byhebsoares" target="_blank" class="btn btn-outline-secondary mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/hebert_bs/" target="_blank" class="btn btn-outline-secondary mx-2"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/hebert-soares-492825139/" target="_blank" class="btn btn-outline-secondary mx-2"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/byhebsoares" target="_blank" class="btn btn-outline-secondary mx-2"><i class="fab fa-github"></i></a>
         </div>
-        <div class="portfolio">
-            <h2>Portfolio</h2>
-            <img src="project1.jpg" alt="Project 1">
-            <img src="project2.jpg" alt="Project 2">
-            <!-- Add more project images here -->
+        <div class="mt-5">
+            <h2 class="text-center">Portfolio</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/primeirofreela.png" alt="Project 1" class="img-fluid mb-4">
+                    <p>
+                        Primeiro projeto realizado como freelancer, site para escritório de advocacia. Mostrando as areas de atuação e a historia da empresa e a trajetoria do fundador.                      
+                    </p>
+                    <p>Infelizmente o projeto foi descontinuado.</p>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://byhebsoares.github.io/boatrace/" target="_blank" ><img src="img/projeto2.png" alt="Project 2" class="img-fluid mb-4"></a>
+                    <p>Projeto feito para um concurso no site Freelancer, para uma ONG estadunidense, onde promovia um BoatRace beneficente. Para desenvolver o projeto utilizei apenas HTML, BOOTSTRAP, CSS</p>
+                </div>
+                <!-- Add more project images here -->
+            </div>
         </div>
     </div>
-    
+    <!-- Bootstrap JS and Font Awesome Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
